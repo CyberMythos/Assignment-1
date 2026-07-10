@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Navbar Styles */
+
 .navbar {
     background: rgba(255, 255, 255, 1);
     border: 0px 0px 0px 1px inside;
@@ -22,8 +24,6 @@
 .logo img {
     width: 134px;
     height: 44px;
-    left: -0.2px;
-    top: 3px;
 }
 
 .links {
@@ -43,11 +43,85 @@
     padding: 4px;
     width: 192px;
     height: 56px;
-    left: 1124.5px;
-    top: -3.5px;
     border: none;
     border-radius: 12px;
     background: #1D4ED8;
     color: #FFFFFF;
     font-weight: bolder;
+    cursor: pointer;
 }
+
+/* Banner Styles */
+
+.banner {
+    position: relative;
+    max-width: 1551px;
+    height: 786px;
+    margin: 0 auto;
+    background: linear-gradient(213deg, rgba(0, 0, 0, 0) 41.74%, rgba(0, 0, 0, 0.88) 87.44%), linear-gradient(90deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%), url("./assets/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.hero {
+    position: absolute;
+    left: 60px;
+    top: 262px;
+    width: 500px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    position: absolute;
+    width: 959px;
+    height: 95px;
+    left: 360px;
+    top: -136px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero em {
+    font-style: italic;
+}
+
+.hero p {
+    position: absolute;
+    width: 829px;
+    height: 108px;
+    left: 350px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.register-btn-2 {
+    position: absolute;
+    width: 282px;
+    height: 74px;
+    left: 652px;
+    top: 400px;
+    padding: 4px;
+    width: 192px;
+    height: 56px;
+    border: none;
+    border-radius: 12px;
+    background: #1D4ED8;
+    color: #FFFFFF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
