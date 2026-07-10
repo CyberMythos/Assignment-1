@@ -64,24 +64,12 @@
     border-radius: 5px;
 }
 
-.hero {
-    position: absolute;
-    left: 60px;
-    top: 262px;
-    width: 500px;
-    height: 56px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .hero h1 {
     position: absolute;
     width: 959px;
     height: 95px;
     left: 360px;
-    top: -136px;
+    top: 136px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -99,6 +87,7 @@
     width: 829px;
     height: 108px;
     left: 350px;
+    top: 247px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -113,7 +102,7 @@
     width: 282px;
     height: 74px;
     left: 652px;
-    top: 400px;
+    top: 650px;
     padding: 4px;
     width: 192px;
     height: 56px;
@@ -125,3 +114,83 @@
     cursor: pointer;
 }
 
+/* Speakers Section */
+
+.speakers {
+    position: relative;
+    max-width: 1551px;
+    height: 1322px;
+    top: 850px;
+}
+
+.speakers-container {
+    position: relative;
+    width: 1440px;
+    height: 1279px;
+    left: 55.5px;
+    text-align: center;
+}
+
+.speakers-container h2 {
+    position: relative;
+    width: 514px;
+    height: 65px;
+    left: 500px;
+    padding-bottom: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #000102;
+}
+
+.speaker-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: fit-content;
+    height: auto;
+    gap: 25px;
+    margin: 0 auto;
+  }
+
+  .speaker-card {
+    position: relative;
+    width: 644px;
+    height: 460px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+  }
+
+.speaker-info {
+    padding: 18px 20px 22px;
+  }
+
+  .tag {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 700;
+    color: #2563eb;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    line-height: 18px;
+  }
+
+  .speaker-info h3 {
+    font-family: 'Inter';
+    font-size: 20px;
+    margin: 6px 0 4px;
+    color: #0d1b2a;
+    line-height: 27px;
+  }
+
+  .speaker-info p {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    line-height: 21px;
+  }
