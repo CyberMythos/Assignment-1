@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 1</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- ===================== NAVBAR ===================== -->
@@ -46,7 +53,7 @@
       </section>
 
       <!-- ===================== SPEAKERS SECTION ===================== -->
-      <section class="speakers" id="speakers">
+      <section class="speakers">
         <div class="speakers-container">
           <h2>Meet the Speakers</h2>
           <div class="speaker-grid">
@@ -98,7 +105,7 @@
       </section>
 
       <!-- ===================== PRICING SECTION ===================== -->
-      <section class="pricing" id="pricing">
+      <section class="pricing">
         <div class="price-container">
           <h2>Secure Your Spot</h2>
           <p>Early-bird pricing ends August 15, 2026.</p>
@@ -155,40 +162,97 @@
         </div>
       </section>
 
-      <!-- ===================== Special BOX ===================== -->
+      <!-- ===================== Special SECTION  ===================== -->
       <section class="Special">
-        <div class="Special-badge">Why attend</div>
+        <div class="Special-top">
+          <div class="Special-badge-row">
+            <div class="Special-logo">
+              <img src="./assets/logo-mini.png" alt="logo-mini" />
+            </div>
+          </div>
+          <p class="Special-supportline">
+            A practical, high-energy experience for modern builders.
+          </p>
+        </div>
+
         <div class="Special-content">
           <div class="Special-text">
-            <h2>Turn ideas into products at DevConf 2026.</h2>
+            <h2>Why DevConf 2026 is worth your time</h2>
             <p>
-              Step into 3 days of high-impact talks, hands-on labs, and bold
-              conversations with teams shaping the future of software.
+              Join 4,000+ engineers, founders, and product leaders for three
+              days of high-impact talks, hands-on labs, and real conversations
+              around AI, cloud, frontend, and security.
             </p>
+
+            <ul class="Special-list">
+              <li>
+                Learn from speakers who are already shaping the future of
+                software.
+              </li>
+              <li>
+                Take part in practical sessions that help teams build faster and
+                smarter.
+              </li>
+              <li>
+                Meet peers from startups, product teams, and engineering
+                organizations.
+              </li>
+            </ul>
           </div>
 
-          <div class="Special-stats">
-            <div>
-              <strong>48+</strong>
-              <span>Expert talks</span>
+          <div class="Special-actions">
+            <div class="Special-panel-head">What you’ll gain</div>
+            <div class="Special-stats">
+              <div>
+                <strong>48+</strong>
+                <span>Expert talks</span>
+              </div>
+              <div>
+                <strong>3</strong>
+                <span>Immersive tracks</span>
+              </div>
+              <div>
+                <strong>4K+</strong>
+                <span>Builders</span>
+              </div>
             </div>
-            <div>
-              <strong>3</strong>
-              <span>Immersive tracks</span>
-            </div>
-            <div>
-              <strong>4K+</strong>
-              <span>Builders</span>
-            </div>
-          </div>
 
-          <a href="#pricing" class="Special-btn">Explore the agenda</a>
+            <a href="#pricing" class="Special-btn">View full agenda</a>
+          </div>
         </div>
       </section>
     </main>
 
     <!-- ===================== FOOTER SECTION ===================== -->
     <footer class="footer">
-      
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="./assets/footer-logo.png" alt="DevConf 2026 footer logo" />
+        </div>
+
+        <div class="footer-socials">
+          <!-- GitHub -->
+          <a href="http://github.com/CyberMythos">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/ahnaf-shahriar-abir-610898363/">
+            <i class="fa-brands fa-square-linkedin"></i>
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/ahnaf-shahriar-abir.35">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="footer-bottom">
+        <p>© 2026 DevConf. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
