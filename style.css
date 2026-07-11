@@ -388,8 +388,8 @@ body {
 
 .Special {
   position: relative;
-  margin: 72px auto 0;
-  max-width: 1200px;
+  margin: 100px auto;
+  max-width: 1440px;
   padding: 36px;
   border-radius: 28px;
   background: linear-gradient(135deg, #f5f8ff 0%, #eef4ff 100%);
@@ -544,15 +544,20 @@ body {
   color: #fff;
   padding: 36px 40px 28px;
   border-top: 3px solid #3b7bf6;
-  margin-top: 90px;
+  margin-top: 200px;
 }
 
 .footer-top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
+  max-width: 1551px;
   gap: 20px;
   padding-bottom: 20px;
+}
+
+.footer-logo img {
+  padding-left: 100px;
 }
 
 .footer-socials {
