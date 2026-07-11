@@ -57,6 +57,7 @@ body {
 }
 
 .register-btn {
+  font-family: "Inter", sans-serif;
   padding: 12px 24px;
   border: none;
   border-radius: 12px;
@@ -138,7 +139,7 @@ body {
 }
 
 .register-btn-2 {
-  width: min(200px, 100%);
+  font-family: "Inter", sans-serif;
   height: 60px;
   padding: 12px 24px;
   border: none;
