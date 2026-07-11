@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -46,11 +47,12 @@ body {
   color: #475569;
   font-weight: 400;
   transition: color 0.2s ease;
+  margin: auto;
+  padding: auto;
 }
 
 .links a:hover {
   color: #2563eb;
-  font-style: unset;
   font-weight: bold;
 }
 
@@ -105,7 +107,6 @@ body {
 
 .hero-content {
   position: relative;
-  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,10 +118,8 @@ body {
 .hero h1 {
   max-width: 959px;
   margin: 0 0 24px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
-  font-size: clamp(48px, 5vw, 80px);
+  font-size: 80px;
   line-height: 1.05;
   color: rgba(255, 255, 255, 1);
 }
@@ -132,8 +131,6 @@ body {
 .hero p {
   max-width: 829px;
   margin: 0 0 32px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: clamp(16px, 2vw, 22px);
   line-height: 1.5;
@@ -221,7 +218,6 @@ body {
 }
 
 .tag {
-  font-family: "Inter";
   font-size: 12px;
   font-weight: 700;
   color: #2563eb;
@@ -338,7 +334,6 @@ body {
 
 .price-card ul {
   list-style-type: circle;
-
   margin-bottom: 22px;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   padding-top: 16px;
@@ -356,7 +351,6 @@ body {
 .price-card li {
   font-size: 14px;
   margin-bottom: 10px;
-  padding-left: 18px;
   position: relative;
 }
 
@@ -423,6 +417,7 @@ body {
   font-size: 14px;
   color: #64748b;
   max-width: 420px;
+  height: fit-content;
   line-height: 1.6;
 }
 
@@ -449,14 +444,18 @@ body {
   font-size: 17px;
   color: #4b5563;
   line-height: 1.7;
-  margin: 0;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .Special-list {
-  margin: 0;
-  padding: 0;
-  display: grid;
+  margin: auto ;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+
 }
 
 .Special-text ul li::marker {
@@ -465,8 +464,7 @@ body {
 
 .Special-list li {
   position: relative;
-  padding-left: 20px;
-  font-size: 15px;
+  font-size: 17px;
   color: #334155;
   line-height: 1.6;
 }
