@@ -1,0 +1,1 @@
+"Remove the Placeholder Section that's currently there, and instead, make something interesting for that section based on this website. Also, please include the CSS for it."
